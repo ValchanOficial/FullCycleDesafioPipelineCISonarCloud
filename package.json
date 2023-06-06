@@ -1,0 +1,37 @@
+{
+  "name": "fullcycledesafiopipelinecisonarcloud",
+  "version": "1.0.0",
+  "description": "Pipeline de CI com SonarCloud",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ValchanOficial/FullCycleDesafioPipelineCISonarCloud.git"
+  },
+  "keywords": [],
+  "author": "Valéria Padilha de Vargas",
+  "license": "ISC",
+  "engines": {
+    "node": ">=19.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/ValchanOficial/FullCycleDesafioPipelineCISonarCloud/issues"
+  },
+  "homepage": "https://github.com/ValchanOficial/FullCycleDesafioPipelineCISonarCloud#readme",
+  "dependencies": {
+    "jest": "^29.5.0"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": [
+      "lcov"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.4"
+  }
+}
