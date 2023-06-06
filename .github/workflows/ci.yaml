@@ -24,6 +24,7 @@ jobs:
   sonarcloud:
     needs: build
     runs-on: ubuntu-latest
+    name: SonarCloud
     steps:
       - uses: actions/checkout@v3
         with:
